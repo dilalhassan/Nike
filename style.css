@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+}
+
+#nav-1 {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(207, 203, 203);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#right a {
+    text-decoration: none;
+    padding: 20px;
+    color: #111;
+}
+
+#nav-2 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(64, 57, 57, 0.705);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#nav-2 #left1 img {
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+#right1 a {
+    text-decoration: none;
+    color: #111;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 9;
+}
+
+#box {
+    width: 90%;
+    height: 80%;
+    background-color: green;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 60px;
+    display: flex;
+}
+
+#box #box-1 {
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1719066373323-c3712474b2a4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#box #box-2 {
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1534083220759-4c3c00112ea0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#para {
+    width: 70%;
+    height: 30%;
+    position: absolute;
+    margin-top: 50%;
+    /* background-color: goldenrod; */
+    margin-left: 15%;
+    text-align: center;
+}
+
+#para h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+#para h1 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 15px;
+    font-family: gilroy;
+}
+
+#para p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#para button {
+    padding: 8px 15px;
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+#para button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+#page1 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    position: absolute;
+    margin-top: 70%;
+}
+
+/* #page1 h2 {
+    font-size: 20px;
+    font-weight: 900;
+    display: flex;
+} */
+
+#pic1 {
+    width: 100%;
+    height: 50%;
+    background-color: green;
+}
+
+
+img {
+    width: 300px;
+    height: 280px;
+}
